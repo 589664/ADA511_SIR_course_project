@@ -4,7 +4,7 @@ from scipy.integrate import odeint
 from scipy.optimize import minimize
 
 # Load the SIR data from the CSV file
-sir_data = pd.read_csv('sir_data.csv')
+sir_data = pd.read_csv('./data/sir_data.csv')
 I_observed = sir_data['Infected'].values
 R_observed = sir_data['Recovered'].values
 S_observed = sir_data['Susceptible'].values

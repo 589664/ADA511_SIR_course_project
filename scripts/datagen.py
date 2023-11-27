@@ -48,5 +48,5 @@ sir_data = pd.DataFrame({
     'Recovered': R.astype(int)
 })
 
-sir_data.to_csv('sir_data.csv', index=False)
+sir_data.to_csv('./data/sir_data.csv', index=False)
 print(sir_data.head())

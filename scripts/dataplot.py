@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Replace 'your_data.csv' with the path to your CSV file
-data = pd.read_csv('sir_data.csv')
+data = pd.read_csv('./data/sir_data.csv')
 
 # Assuming the population of Brazil at the time of the earliest timestamp (1/22/20)
 population = 10000000  
